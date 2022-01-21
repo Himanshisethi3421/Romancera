@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(221, 221, 207);
+    padding: 30px;
+}
+#child {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(221, 221, 207);
+}
+#child a{
+    text-decoration: none;
+    color: #444;
+}
+#link a{
+    margin-left: 20px;
+}
+#child h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: ogg;
+    font-size: x-large;
+    font-weight: 30px;
+}
+#bunny{
+    width: 100%;
+    height: calc(100% - 60px);
+    margin-top: 30px;
+
+    background-color: rgb(221, 221, 207);
+    display: flex;
+    justify-content:space-between;
+}
+#ele{
+    width: 27%;
+    height: 100%;
+    background-color: transparent
+}
+#ele h1{
+    font-size: 50px;
+    font-family: ogg;
+    font-weight: 20;
+    line-height: 45px;
+    
+    
+}
+#ele img{
+    height: 30%;
+    margin-top: 30px;
+}
+#ele h4{
+    font-size: 15px;
+    font-family: ogg;
+    margin-top: 12px;
+    
+}
+
+    
+    
+    
+    
+    
+
+#ele h5{
+    font-family: ogg;
+    font-weight: 50;
+    font-size: 20px;
+    margin-top: 10px ;
+    margin-bottom: 2px;
+}
+#elem{
+    width: 27%;
+    height: 100%;
+    background-color: transparent
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    overflow: hidden;
+    position: relative;
+}
+#elem video{
+    width: 150%;
+    position: absolute;
+    
+    
+    
+
+    
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+#elemt{
+    width: 27%;
+    height: 100%;
+    background-color: transparent
+}
+#elemt h1{
+    font-size: 30px;
+    font-family: ogg;
+    margin-top: 40%;
+}
+#elemt img{
+    height: 30%;
+    margin-top: 20px;
+
+
+}
+#elemt h5{
+    margin-top: 15px;
+    font-size: 17px;
+    font-family: ogg;
+}
+#elemt h4{
+    margin-top: 20px;
+}
+   
+    
